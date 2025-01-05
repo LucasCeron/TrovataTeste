@@ -1,0 +1,45 @@
+body, html {
+      height: 100%;
+      background-color: #505070;
+    }
+
+.btn{
+    width: 100%;
+}
+
+#container {
+    height: auto; 
+    width: 30vw; 
+    min-width: 300px; 
+}
+
+#empresaForm{
+    height: 60%;
+    width: 100%;
+    align-items: center;
+}
+
+#dropdown {
+    position: absolute;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    display: none;
+}
+
+#dropdown div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#dropdown div:hover {
+    background-color: #f0f0f0;
+}
+
+
+#pesquisa {
+    width: 100%;
+}
